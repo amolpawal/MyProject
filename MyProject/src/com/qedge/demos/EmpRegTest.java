@@ -5,7 +5,7 @@ import java.io.IOException;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.server.browserlaunchers.Sleeper;
+
 
 public class EmpRegTest 
 {
@@ -26,7 +26,7 @@ public class EmpRegTest
 		driver.findElement(By.id("photofile")).click();
 		
 		Runtime.getRuntime().exec("d:\\fileupload.exe");
-		Sleeper.sleepTightInSeconds(5);		
+			
 		driver.findElement(By.id("btnSave")).click();
 	}
 

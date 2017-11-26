@@ -4,7 +4,7 @@ package com.qedge.demos;
 import java.util.List;
 
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.server.browserlaunchers.Sleeper;
+
 import org.openqa.selenium.support.ui.Select;
 
 import org.openqa.selenium.By;

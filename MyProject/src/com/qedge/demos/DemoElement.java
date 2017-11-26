@@ -6,7 +6,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.server.browserlaunchers.Sleeper;
+
 
 
 public class DemoElement 
@@ -18,7 +18,7 @@ public class DemoElement
 	WebDriver driver=new FirefoxDriver();
 	driver.get("https://www.redbus.in/");	
 	driver.findElement(By.id("src")).sendKeys("Hyd");
-	Sleeper.sleepTightInSeconds(2);	
+
 	
 	List<WebElement> cities;
 	cities=driver.findElements
